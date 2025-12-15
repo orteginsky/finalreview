@@ -1,0 +1,47 @@
+# Ignore version control
+.git
+.gitignore
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.envrc
+.python-version
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Logs and temp files
+*.log
+*.log.*
+FINAL-REVIEW_LOG.txt
+temp_downloads_final_review/
+temp_markdowns/
+temp_uploads/
+links_fails_final_review.json
+
+# Credentials / secrets
+sa_key.json
+token.json
+*.p12
+*.pem
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

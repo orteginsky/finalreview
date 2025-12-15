@@ -1,0 +1,31 @@
+# --- API & Server (NUEVO) ---
+fastapi>=0.109.0        # El framework para crear el endpoint
+uvicorn[standard]>=0.27.0 # El servidor ASGI para correr la app
+pydantic>=2.6.0         # Para validación de datos (schemas.py)
+python-dotenv>=1.0.0    # Para cargar variables desde archivo .env (config.py)
+
+# --- Core HTTP / Utils ---
+requests>=2.31.0
+urllib3>=2.0.0
+
+# --- Dropbox ---
+dropbox>=12.0.0
+
+# --- Google Auth / APIs ---
+google-auth>=2.27.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.116.0
+
+# --- Google Sheets (gspread) ---
+gspread>=6.0.0
+
+# --- Google Cloud Platform ---
+google-cloud-storage>=2.14.0
+google-cloud-aiplatform>=1.40.0
+
+# --- Vertex AI Python SDK ---
+vertexai>=1.40.0
+
+# --- PDFs (PyMuPDF) ---
+PyMuPDF>=1.23.0
